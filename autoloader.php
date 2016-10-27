@@ -16,5 +16,3 @@ atoum\autoloader::get()
 	->addDirectory(__NAMESPACE__, __DIR__ . '/classes')
 	->addDirectory('JsonSchema', $vendorDirectory . '/justinrainbow/json-schema/src/JsonSchema')
 ;
-
-require_once __DIR__ . '/tests/autoloader.php';

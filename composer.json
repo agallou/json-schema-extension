@@ -23,5 +23,8 @@
             "mageekguy\\atoum\\jsonSchema\\": "classes"
         },
         "files": ["autoloader.php"]
+    },
+    "autoload-dev": {
+        "files": ["tests/autoloader.php"]
     }
 }

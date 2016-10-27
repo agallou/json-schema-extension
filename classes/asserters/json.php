@@ -126,9 +126,7 @@ class json extends stringAsserter
 
 	protected static function isJson($value)
 	{
-		$decoded = json_decode($value);
-
-        //var_dump(error_get_last(), $decoded, $value, strtolower(trim($value)));
+		$decoded = @json_decode($value);
 
 		return (
 			error_get_last() === null &&
