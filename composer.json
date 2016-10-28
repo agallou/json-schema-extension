@@ -11,20 +11,19 @@
             "email": "contact@jubianchi.fr"
         }
     ],
+    "minimum-stability": "beta",
     "require": {
-        "atoum/atoum": "<3.0",
+        "php": "^5.5.0 || ^7.0.0",
+        "atoum/atoum": "^2.9",
         "justinrainbow/json-schema": "*"
     },
     "require-dev": {
-        "atoum/praspel-extension": "~0"
+        "atoum/praspel-extension": "^0.16"
     },
     "autoload": {
         "psr-4": {
             "mageekguy\\atoum\\jsonSchema\\": "classes"
         },
-        "files": ["autoloader.php"]
-    },
-    "autoload-dev": {
-        "files": ["tests/autoloader.php"]
+        "files": ["configuration.php"]
     }
 }
